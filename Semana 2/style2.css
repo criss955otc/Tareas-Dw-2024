@@ -1,0 +1,97 @@
+
+body {
+    padding-top: 70px;
+    background-color: var(--color1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-size: 70px;
+    padding: 0px 100px;
+    margin-top: 0px;
+}
+
+input{
+    padding: 7px;
+    text-align: justify;
+    margin: 1px;
+    border-radius: 9px;
+    border: 0px;
+}
+
+label {
+    text-align: center;
+    padding: 8px;
+    color: var(--color1);
+}
+button{
+    margin: 7px;
+    padding: 3px 15px;
+    border: 0px;
+    border-radius: 7px;
+    background-color:var(--color3);
+    font-weight: bold;
+}
+
+img {
+    width:75px;
+}
+:root{
+    --color1:rgb(230, 234, 213) ;
+    --color2:rgb(14, 18, 14);
+    --color3: rgb(179, 223, 19);
+}
+.container_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--color2);
+    width: 300px;
+    height: 200px;
+    padding: 30px 25px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.container2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--color3);
+    width: 300px;
+    height: 200px;
+    padding: 30px 25px;
+    border-radius: 0px 25px 25px 0px;    
+}
+
+.container2 label {
+    padding: 0px;
+    margin: 0px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.boton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#result {
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    align-items: center;
+    color: var(--color2);
+}
