@@ -1,0 +1,63 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 45px;
+    background-color: rgb(33, 36, 33);
+}
+table {
+    width: 30px;
+}
+th, td {
+    border: 2px solid rgb(219, 212, 212);
+}
+th, td {
+    padding: 8px 8px;
+    text-align: center;
+}
+label{
+    text-align: center;
+}
+
+input{
+    display: grid;
+    justify-content: center;
+    margin: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(52, 67, 52);
+    text-align: center;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.principal{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta {
+    display: grid;
+    padding: 20px 45px;
+    display: grid;
+    border-radius: 35px;
+    justify-content: center;
+    background-color: rgb(208, 255, 132);
+}
+
+.texto_input{
+    color: antiquewhite;
+}
+#cuadricula{
+    display: flex;
+    justify-content: center;
+}
