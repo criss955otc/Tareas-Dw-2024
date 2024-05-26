@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style4.css" />
+    <script src="scrip4.js"></script>
+  </head>
+  <body>
+
+    <div class="card">
+      <h1>CONVERSOR DE TEMPERATURA</h1>
+
+      <form id="formu">
+        <div id="form-group" class="form-floating mb-3">
+            <input type="num"id="temperatura" class="form-control"  >
+            <label for="floatingInput">Temperatura</label>
+        </div>
+
+        <div id="form-group">
+          <label for="desde">Convertir desde:</label>
+          <select
+            id="desde"
+            class="form-select form-select-lg mb-3"
+            aria-label="Large select example"
+          >
+            <option value="Celsios">Celsios</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+        </div>
+
+        <div id="form-group">
+          <label for="to">Convertir a:</label>
+          <select id="hasta"class="form-select form-select-lg mb-3"aria-label="Large select example">
+            <option value="Celsios">Celsios</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button id="boton_convertir" class="btn btn-primary" type="submit">Convetir</button>
+        </div>
+        
+        <div class="result" id="result"></div>
+
+      </form>
+    </div>
+  </body>
+</html>
