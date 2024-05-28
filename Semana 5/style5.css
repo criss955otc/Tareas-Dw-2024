@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+.portada img {
+  display: grid;
+  width: 1000px;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+  width: 41px;
+}
+.portada {
+  display: grid;
+  justify-content: center;
+}
+
+.boton {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: x-large;
+  font-weight: 700;
+  background-color: rgb(255, 205, 205);
+  box-shadow: 5px 5px 5px rgb(196, 128, 128);
+}
+.tableroA {
+  display: grid;
+  padding: 50px;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: rgb(116, 55, 55);
+  color: aliceblue;
+  box-shadow: 5px 5px 5px rgb(132, 163, 139);
+}
+
+table {
+  height: 800px;
+  width: 800px;
+  text-align: center;
+  box-shadow: 5px 5px 7px gray;
+}
+
+td {
+  width: 100px;
+}
+
+table,
+td {
+  border-collapse: collapse;
+}
+
+tr {
+    height: 100px;
+    width: 100px;
+}
